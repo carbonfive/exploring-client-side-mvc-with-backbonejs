@@ -1,0 +1,11 @@
+<p>
+  <b>Title:</b>
+  <%= @post.get 'title' %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @post.get 'body' %>
+</p>
+
+<a href="#">back</a>

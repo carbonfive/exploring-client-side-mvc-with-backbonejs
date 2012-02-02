@@ -1,0 +1,17 @@
+<h1>New post</h1>
+
+<form>
+  <div class="field">
+    <label for="title">Title</label><br />
+    <input type="text" name="title" id="title" />
+  </div>
+  <div class="field">
+    <label for="body">Body</label><br />
+    <textarea name="body" id="body"></textarea>
+  </div>
+  <div class="actions">
+    <input type="submit" value="create" />
+  </div>
+</form>
+
+<a href="#">back</a>

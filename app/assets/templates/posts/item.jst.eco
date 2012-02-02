@@ -1,0 +1,3 @@
+<td><%= @post.get 'title' %></td>
+<td><%= @post.get 'body' %></td>
+<td><a href="#posts/<%= @post.id %>">show</a></td>
